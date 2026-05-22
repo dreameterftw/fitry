@@ -1,0 +1,46 @@
+/* Site-wide decorative coding-icon background.
+   Sits behind everything, never blocks clicks, never affects layout. */
+
+.bg-icons {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+  z-index: 0;            /* sits above body bg, below all page content */
+}
+
+/* Page content is given relative + z-index >= 1 by their own
+   wrappers (.cv-page, .courses-page, .dashboard-page, etc.),
+   so these icons land underneath naturally. */
+
+.bg-icon {
+  position: absolute;
+  /* Tied to the green theme but heavily desaturated so it
+     reads as a faint grey-green texture, never a focal point. */
+  color: var(--green);
+  opacity: 0.045;        /* ≈ 4.5% — visible only on plain bg */
+  filter: drop-shadow(0 0 8px rgba(168, 255, 107, 0.05));
+  transition: opacity 0.4s ease;
+  will-change: transform;
+}
+
+/* Slightly stronger on dark plain panels, but never enough
+   to interfere with reading. */
+@media (min-width: 1100px) {
+  .bg-icon { opacity: 0.055; }
+}
+
+/* On small screens the icons would crowd the layout, so we
+   thin them out and shrink them. */
+@media (max-width: 720px) {
+  .bg-icon {
+    opacity: 0.035;
+    transform-origin: center;
+  }
+  .bg-icon:nth-child(even) { display: none; }
+}
+
+/* Respect reduced-motion users — no transitions */
+@media (prefers-reduced-motion: reduce) {
+  .bg-icon { transition: none; }
+}

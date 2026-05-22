@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Environment variables — NEVER upload these
+.env
+.env.local
+.env.production
+.dev.vars
+
+# Firebase
+.firebase/
+firebase-debug.log
+service-account.json
+
+# Build output
+dist/
+build/
+
+# Cloudflare
+.wrangler/
+
+# OS files
+.DS_Store
+Thumbs.db

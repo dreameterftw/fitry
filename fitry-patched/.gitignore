@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+fitry-app/node_modules/
+functions/node_modules/
+
+# Build output
+dist/
+build/
+fitry-app/dist/
+
+# Env files — NEVER commit these
+.env
+.env.local
+.env.production
+.dev.vars
+fitry-app/.env
+fitry-app/.env.local
+fitry-proxy/.dev.vars
+
+# Firebase
+.firebase/
+firebase-debug.log
+service-account.json
+
+# Cloudflare
+.wrangler/
+
+# OS files
+.DS_Store
+Thumbs.db
+

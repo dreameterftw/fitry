@@ -1,0 +1,94 @@
+{
+  "JavaScript Fundamentals": {
+    "Beginner": [
+      "Hello JavaScript",
+      "Data Types & Operators",
+      "Control Flow (If/Else)",
+      "Functions Basics",
+      "Arrays"
+    ],
+    "Intermediate": [
+      "Objects",
+      "DOM Selection",
+      "Event Listeners",
+      "Array Methods (Map & Filter)",
+      "Local Storage"
+    ],
+    "Advanced": [
+      "ES6+ Destructuring & Spread",
+      "Promises & Async/Await",
+      "Fetch API",
+      "Error Handling (Try/Catch)",
+      "Performance & The Event Loop"
+    ]
+  },
+  "Cybersecurity Basics": {
+    "Beginner": [
+      "What is Cybersecurity?",
+      "Social Engineering & Phishing",
+      "Malware & Ransomware",
+      "Password Security & Hashing",
+      "Networking & Firewalls"
+    ],
+    "Intermediate": [
+      "The OWASP Top 10",
+      "Network Recon (Nmap)",
+      "Cryptography: Symmetric vs Asymmetric",
+      "Vuln Research & CVEs",
+      "Incident Response"
+    ],
+    "Advanced": [
+      "Buffer Overflows",
+      "Web App Penetration Testing",
+      "Active Directory Security",
+      "Cloud Security (AWS/Azure)",
+      "The Security Career Path"
+    ]
+  },
+  "Java Programming": {
+    "Beginner": [
+      "Intro to Java",
+      "Variables & Types",
+      "Control Flow",
+      "Arrays",
+      "Methods"
+    ],
+    "Intermediate": [
+      "OOP Principles",
+      "Inheritance",
+      "Interfaces",
+      "Exceptions",
+      "Collections Framework"
+    ],
+    "Advanced": [
+      "Streams API",
+      "Generics",
+      "Lambda Expressions",
+      "Multithreading",
+      "JDBC Basics"
+    ]
+  },
+  "React Native Mobile Apps": {
+    "Beginner": [
+      "What is React Native?",
+      "Setting up Expo",
+      "Core Components",
+      "Styling & Flexbox",
+      "Handling Input"
+    ],
+    "Intermediate": [
+      "Lists & FlatList",
+      "Stack Navigation",
+      "Tab Navigation",
+      "Working with APIs",
+      "Async Storage"
+    ],
+    "Advanced": [
+      "Native Modules",
+      "Animations with Reanimated",
+      "Push Notifications",
+      "Deployment (App Store & Play Store)",
+      "Performance Optimization"
+    ]
+  }
+}

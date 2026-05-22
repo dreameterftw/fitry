@@ -1,0 +1,11 @@
+name = "fitry-proxy"
+main = "src/index.ts"
+compatibility_date = "2026-05-08"
+compatibility_flags = [ "nodejs_compat" ]
+
+[observability]
+enabled = true
+
+[[kv_namespaces]]
+binding = "RATE_LIMIT_KV"
+id = "18b8c3b1ff004e1ea56ee522b0762342"

@@ -1,0 +1,182 @@
+
+--- Course: HTML & CSS Fundamentals ---
+Level 1 Project: Personal portfolio page
+Brief: Build a complete personal portfolio page using only HTML and CSS. It must have: a nav bar with your name and 3 links, a hero section with your name and a short tagline, an about section, a skills list, and a footer with your email. No frameworks, no JavaScript.
+Expected Output: A fully styled, multi-section portfolio page that looks professional and loads in the browser.
+
+Level 2 Project: Responsive landing page
+Brief: Build a fully responsive landing page for a fictional product. Must include: a sticky nav, a hero section, a 3-column features grid that collapses to 1 column on mobile, a testimonials section, and a footer. Use CSS custom properties for your color palette.
+Expected Output: A polished, responsive landing page that looks good on both mobile and desktop.
+
+Level 3 Project: Multi-page website with a design system
+Brief: Build a 3-page website (Home, About, Contact) that shares a consistent design system. The design system must include: CSS custom properties for all tokens, reusable component classes (button variants, card variants, badge), a typography scale, and a consistent spacing system. The site must be fully responsive and accessible.
+Expected Output: Three linked pages that feel visually consistent, with a documented design system in a separate tokens.css file.
+
+
+--- Course: JavaScript Fundamentals ---
+Level 1 Project: Build a CLI quiz game
+Brief: Create a terminal-based quiz game that asks 5 questions, tracks the score, and prints a result at the end.
+Expected Output: A working quiz in the terminal that scores correctly.
+
+Level 2 Project: Build a to-do list in the browser
+Brief: Build a browser-based to-do app with add, complete, and delete. Data persists in localStorage.
+Expected Output: A functioning to-do app that survives page refresh.
+
+Level 3 Project: Build an async weather dashboard
+Brief: Fetch weather data from a public API and display current conditions for any city. Handle loading and error states.
+Expected Output: A weather app that fetches live data and handles edge cases.
+
+
+--- Course: React.js Mastery ---
+Level 1 Project: Build a profile card component
+Brief: Create a reusable <ProfileCard /> component that accepts name, bio, and avatar via props and renders a styled card.
+Expected Output: A clean, styled profile card rendered in the browser.
+
+Level 2 Project: Build a multi-step form
+Brief: Build a form wizard with 3 steps, each collecting different data. Navigate between steps without losing state.
+Expected Output: A working multi-step form with forward/back navigation.
+
+Level 3 Project: Build a mini Reddit clone
+Brief: Build a post feed with upvote/downvote, comment threads, and sorting. Use useReducer for state management.
+Expected Output: A functional Reddit-style feed with interactive voting.
+
+
+--- Course: Python for Everyone ---
+Level 1 Project: Build a number guessing game
+Brief: Create a CLI game that picks a random number 1–100 and gives the user hints (higher/lower) until they guess it.
+Expected Output: A playable game in the terminal with hint feedback and attempt count.
+
+Level 2 Project: Build a file organiser script
+Brief: Write a Python script that scans a folder and sorts files into subdirectories by extension (.pdf, .jpg, etc.).
+Expected Output: Running the script moves files into categorised subfolders.
+
+Level 3 Project: Build a web scraper with requests + BeautifulSoup
+Brief: Scrape a public site (e.g. quotes.toscrape.com), extract structured data, and save it to a CSV file.
+Expected Output: A CSV file with scraped data and a clean terminal log.
+
+
+--- Course: Data Analysis with Pandas ---
+Level 1 Project: Analyse a CSV sales dataset
+Brief: Load a CSV, clean missing values, and produce a summary report with totals and averages per category.
+Expected Output: Printed summary statistics and a cleaned DataFrame.
+
+Level 2 Project: Build a dashboard-ready dataset
+Brief: Merge two CSV files, create pivot tables, and export a final dataset ready for visualisation.
+Expected Output: A merged, pivoted CSV file with no nulls.
+
+Level 3 Project: End-to-end EDA report
+Brief: Perform exploratory data analysis on a real-world dataset: distributions, correlations, outlier detection, and a written summary.
+Expected Output: A Jupyter notebook with charts, stats, and narrative insights.
+
+
+--- Course: Machine Learning Foundations ---
+Level 1 Project: Predict house prices
+Brief: Build a simple linear regression model to predict house prices based on square footage and number of rooms.
+Expected Output: A model that can accurately predict a price for a given input.
+
+Level 2 Project: Iris Flower Classification
+Brief: Use the classic Iris dataset to build a model that classifies flower species based on measurements.
+Expected Output: A classification model with high accuracy on test data.
+
+Level 3 Project: Credit Card Fraud Detection
+Brief: Build a model to detect fraudulent transactions in an imbalanced dataset.
+Expected Output: A model optimized for recall to catch as many frauds as possible.
+
+
+--- Course: C++ Fundamentals ---
+Level 1 Project: Student grade calculator
+Brief: Build a console program that: accepts names and scores for 5 students, calculates each student's letter grade (A/B/C/D/F), prints a formatted report table, and shows the class average, highest score, and lowest score. Use arrays, loops, and functions — no STL containers yet.
+Expected Output: A formatted console table showing each student's name, score, and grade, followed by class statistics.
+
+Level 2 Project: Bank account management system
+Brief: Build a console-based bank app using classes. It must support: creating accounts with name and initial deposit, depositing money, withdrawing (with insufficient-funds check), checking balance, and printing a full transaction history. Use a class with private members, a vector of transaction structs, and at least one static member for total accounts created.
+Expected Output: A menu-driven console app where users can create an account, deposit, withdraw, and view transaction history.
+
+Level 3 Project: Mini text-based RPG
+Brief: Build a console-based RPG using OOP and STL. It must have: a Player class with hp, attack, level, and inventory (vector), an Enemy hierarchy (at least 2 enemy types using inheritance and polymorphism), a combat system where turns alternate, items that can be picked up and used, and the game state saved and loaded from a file. Use smart pointers (unique_ptr) instead of raw new/delete.
+Expected Output: A playable console RPG with combat, inventory, multiple enemy types, and save/load functionality.
+
+
+--- Course: Cybersecurity Basics ---
+Level 1 Project: Security Audit Checklist
+Brief: Identify 5 common vulnerabilities from the OWASP Top 10 and write a remediation plan for a fictional website.
+Expected Output: A professional security audit document.
+
+Level 2 Project: Password Cracking Simulation
+Brief: Use a tool like 'John the Ripper' to attempt to crack a list of weak MD5 hashes using a common wordlist (dictionary attack).
+Expected Output: A report on which passwords were weak enough to be cracked.
+
+Level 3 Project: Capture The Flag (CTF)
+Brief: Complete a 'Box' on TryHackMe or HackTheBox. You must gain user access and root access to find two 'flags'.
+Expected Output: A write-up of the attack path and the two flags found.
+
+
+--- Course: Django Web Framework ---
+Level 1 Project: Basic Blog
+Brief: Create a blog with posts and authors.
+Expected Output: A functional blog.
+
+Level 2 Project: Todo App
+Brief: Build a todo app with CRUD functionality.
+Expected Output: A working Todo app.
+
+Level 3 Project: Social Media API
+Brief: Build a REST API for a social media platform using DRF.
+Expected Output: A set of API endpoints.
+
+
+--- Course: Master SQL & Databases ---
+Level 1 Project: Library Management System
+Brief: Create a database schema for a library, including tables for books and authors. Establish relationships and insert sample data.
+Expected Output: A robust set of SQL queries to create tables, define primary/foreign keys, and insert initial records.
+
+Level 2 Project: E-Commerce Database
+Brief: Design a database with three related tables: `Products`, `Orders`, and `Customers`. Write queries to find which customer spent the most.
+Expected Output: A multi-table schema and advanced JOIN queries.
+
+Level 3 Project: Database Performance Tuning
+Brief: Analyze a slow-running query. Implement indexing and rewrite the query using a Common Table Expression (CTE) for better readability and speed.
+Expected Output: An optimized query plan showing reduced execution time.
+
+
+--- Course: Java Programming ---
+Level 1 Project: Calculator
+Brief: Build a console-based calculator.
+Expected Output: A JAR file or source code.
+
+Level 2 Project: Bank Account System
+Brief: Implement a system with classes for accounts, transactions, and customers.
+Expected Output: An OOP-based banking system.
+
+Level 3 Project: Multi-threaded Web Server
+Brief: Build a simple web server that handles multiple requests simultaneously.
+Expected Output: A functional multi-threaded server.
+
+
+--- Course: Go (Golang) ---
+Level 1 Project: CLI Tool
+Brief: Build a simple CLI tool.
+Expected Output: A Go binary.
+
+Level 2 Project: Concurrent Scraper
+Brief: Build a web scraper that uses goroutines to fetch pages in parallel.
+Expected Output: A fast, concurrent scraper.
+
+Level 3 Project: Distributed Task Runner
+Brief: Use goroutines and channels to build a system that processes tasks in parallel with a worker pool.
+Expected Output: A high-performance task processor.
+
+
+--- Course: React Native Mobile Apps ---
+Level 1 Project: Build a profile screen
+Brief: Create an Expo app with a centered profile screen showing your name, bio, and a styled avatar placeholder.
+Expected Output: A clean profile screen visible in Expo Go.
+
+Level 2 Project: Build a scrollable news feed
+Brief: Build a news feed using FlatList with pull-to-refresh, placeholder images, and styled cards.
+Expected Output: A scrollable, refreshable feed of at least 10 items.
+
+Level 3 Project: Build a multi-screen app with navigation
+Brief: Build a 3-tab app using React Navigation: Home, Search, and Profile. Each tab should have its own stack.
+Expected Output: A tabbed app with stack navigation inside each tab.
+

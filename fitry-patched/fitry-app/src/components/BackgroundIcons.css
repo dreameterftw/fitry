@@ -24,6 +24,21 @@
   will-change: transform;
 }
 
+/* Slightly increase visibility on the Resources page so the icons
+   read as a subtle animated background rather than disappearing into
+   a plain black panel. Toggled by the page component. */
+.resources-page-active .bg-icon {
+  opacity: 0.11;
+  filter: drop-shadow(0 0 12px rgba(168, 255, 107, 0.08));
+}
+
+/* When Resources page is active, lift the icon layer above the
+   page glow so the icons are visible, but still stay beneath
+   the main content (which uses z-index:2). */
+.resources-page-active .bg-icons {
+  z-index: 1;
+}
+
 /* Slightly stronger on dark plain panels, but never enough
    to interfere with reading. */
 @media (min-width: 1100px) {

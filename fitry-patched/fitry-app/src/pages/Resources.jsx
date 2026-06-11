@@ -282,6 +282,14 @@ Use real, high-quality URLs (e.g. YouTube, MDN, Dev.to, freeCodeCamp, etc.) rela
   const combinedRecommendations = [...recommendedResources, ...aiPicks];
   const lessonDetails = recentLesson ? getLessonDetails(recentLesson.courseId, recentLesson.levelId, recentLesson.lessonId) : null;
 
+  // Ensure the global BackgroundIcons are more visible for this page by toggling
+  // a short-lived class on the root element. This keeps the global component
+  // mounted but allows CSS to increase icon opacity selectively.
+  useEffect(() => {
+    document.documentElement.classList.add('resources-page-active');
+    return () => document.documentElement.classList.remove('resources-page-active');
+  }, []);
+
   return (
     <div className="resources-page">
       <Navbar />

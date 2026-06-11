@@ -21,6 +21,12 @@
   pointer-events: none;
 }
 
+/* When the resources page is active we may lift icons above this glow
+   instead of the other way round — overridden by the root class toggle. */
+.resources-page-active .resources-bg-glow {
+  z-index: 0;
+}
+
 .resources-content {
   max-width: 1200px;
   margin: 0 auto;

@@ -51,7 +51,7 @@ of their hiring readiness.
    ```bash
    npm run dev
    ```
-
+ 
 ## Environment variables
 All API keys (Groq, Adzuna, Resend) are stored as
 Cloudflare Worker secrets and never exposed client-side.

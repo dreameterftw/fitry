@@ -9,7 +9,7 @@ Most learning platforms stop at teaching concepts and issuing certificates. Fitr
 The platform is designed primarily for students, beginners, career switchers, and self-taught developers who need a clear roadmap into technology without wasting months on the wrong skills or courses.
 
 ---
-
+ 
 # The Problem
 
 The current online learning ecosystem has three major issues:

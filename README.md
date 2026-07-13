@@ -511,7 +511,7 @@ No API keys are exposed client-side.
 Our long-term goal is simple:
 
 > Become the platform that guides learners from curiosity to competence, from competence to confidence, and from confidence to employment.
-
+ 
 Fitry is not just a place to learn technology.
 
 It is a system designed to help people build careers.

@@ -3,7 +3,7 @@
 > A career-first tech learning platform that takes learners from their first line of code to being genuinely ready to apply for a tech job.
 
 Fitry is not another course platform.
-
+ 
 Most learning platforms stop at teaching concepts and issuing certificates. Fitry bridges the gap between learning and employment by combining structured learning, AI-powered feedback, career guidance, skill-gap analysis, portfolio building, and live job opportunities into a single ecosystem.
 
 The platform is designed primarily for students, beginners, career switchers, and self-taught developers who need a clear roadmap into technology without wasting months on the wrong skills or courses. 

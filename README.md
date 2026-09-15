@@ -515,3 +515,4 @@ Our long-term goal is simple:
 Fitry is not just a place to learn technology.
 
 It is a system designed to help people build careers.
+ 

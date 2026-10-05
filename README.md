@@ -1,5 +1,5 @@
 # Fitry
-
+ 
 > A career-first tech learning platform that takes learners from their first line of code to being genuinely ready to apply for a tech job.
 
 Fitry is not another course platform.
